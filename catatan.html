@@ -6,13 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    body{
+      background-color:white;
+      opacity:0.87
+    }
     h2{
       font-family:"Lucida Console";
+    }
+    #warnah2{
+      color: #0F4C75;
+    }
+    ul{
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      background-color:#364F6B;
+      border: 2px white;
+      border-radius: 5px;
+    }
+    li{
+      float:left;
+      letter-spacing: 0.2em;
+    }
+    ul li a{
+      display:block;
+      color:white;
+      padding:14px 16px;
+      text-decoration:none;
+    }
+    ul li a:hover{
+      background-color:#BDCDD6;
     }
   </style>
 </head>
 <body>
-  <h2 style="color:navy"> Selamat Datang di Web Saya</h2>
+  <h2 id= "warnah2"> Selamat Datang di Web Saya</h2>
   <h2>Silahkan Browsing </h2>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </body>
 </html>
